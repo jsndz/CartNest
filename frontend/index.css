@@ -1,0 +1,43 @@
+body {
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures that the body takes the full height of the viewport */
+    margin: 0;
+}
+
+#group{
+    display: flex;
+    flex-flow: row;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+#group2{
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+
+}
+#button{
+    background-color: #333;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    width: 50%;
+    margin: auto;   
+    margin: 10px auto 0 auto;
+}
+
+#inputValue{
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+#image{
+    height: 15rem;
+    border-radius: 10px;
+}
